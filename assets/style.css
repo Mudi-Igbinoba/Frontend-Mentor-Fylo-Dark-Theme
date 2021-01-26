@@ -3,3 +3,13 @@ body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Footer */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
