@@ -5,6 +5,41 @@ body {
   background-color: hsl(217, 28%, 15%);
 }
 
+/* Header */
+  header img {
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+
+  header nav {
+    position: relative;
+  }
+
+  header li {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+  }
+
+  header a {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+  }
 /* Footer */
 .attribution { 
   font-size: 11px; 
