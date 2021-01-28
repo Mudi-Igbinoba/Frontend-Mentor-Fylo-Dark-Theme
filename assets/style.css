@@ -302,12 +302,210 @@ html, body {
     filter: grayscale();
     border-bottom: 1px solid hsl(0, 0%, 100%);
   }
-/* Footer */
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
-}
 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
-}
+/* Team */
+  #team {
+    position: relative;
+    top: 30px;
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 150px;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 60px 125px;
+    background-size: 7%;
+    /* height: fit-content;
+    width: fit-content; */
+  }
+
+  #team-1 {
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+  }
+
+  #team-1 blockquote {
+    padding: 0px;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  #team-1 img {
+    width: 11%;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #team-1 h4 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* float: right; */
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+
+  #team-1 p {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    /* float: right; */
+    /* display: inline; */
+    position: relative;
+    bottom: 18px;
+    margin-left: 82px;
+  }
+
+  #team-2 {
+    position: relative;
+    top: 50px;
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+  }
+
+  #team-2 blockquote {
+    padding: 0px;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  #team-2 img {
+    width: 11%;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #team-2 h4 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* float: right; */
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+
+  #team-2 p {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    /* float: right; */
+    /* display: inline; */
+    position: relative;
+    bottom: 18px;
+    margin-left: 82px;
+  }
+
+  #team-3 {
+    position: relative;
+    top: 100px;
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+  }
+
+  #team-3 blockquote {
+    padding: 0px;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  #team-3 img {
+    width: 11%;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  #team-3 h4 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* float: right; */
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+
+  #team-3 p {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    /* float: right; */
+    /* display: inline; */
+    position: relative;
+    bottom: 18px;
+    margin-left: 82px;
+  }
+
+/* Sign In */
+  #sign-in {
+    position: relative;
+    top: 150px;
+  }
+
+/* Footer */
+  footer {
+    position: relative;
+    top: 200px;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
