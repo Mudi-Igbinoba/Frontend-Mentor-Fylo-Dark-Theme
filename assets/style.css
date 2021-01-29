@@ -45,6 +45,7 @@ html, body {
   header a:hover {
     text-decoration: underline;
     font-weight: 700;
+    cursor: pointer;
   }
 
 /* Features  */
@@ -111,10 +112,12 @@ html, body {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.5px;
+    outline: none;
   }
 
   #feature-1 button:hover {
     background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
   }
 
   #feature-2 {
@@ -296,11 +299,14 @@ html, body {
 
   #feature-6 a:hover {
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+
   }
 
   #feature-6 a img:hover {
     filter: grayscale();
     border-bottom: 1px solid hsl(0, 0%, 100%);
+    cursor: pointer;
   }
 
 /* Team */
@@ -315,6 +321,7 @@ html, body {
     background-size: 7%;
     /* height: fit-content;
     width: fit-content; */
+    height: 950px;
   }
 
   #team-1 {
@@ -492,9 +499,83 @@ html, body {
 /* Sign In */
   #sign-in {
     position: relative;
-    top: 150px;
+    top: 10px;
+    background-color: hsl(218, 28%, 13%);
+    /* padding-top: 100px; */
   }
 
+  .sign-in-div {
+    position: relative;
+    margin: 0px 25px;
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    top: 210px;
+  }
+
+  .sign-in-div h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .sign-in-div p {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .input-1 {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    outline: none;
+    padding-left: 50px;
+  }
+
+
+  .input-1::placeholder {
+    position: relative;
+    /* left: 30px; */
+    top: 4px;
+    opacity: 0.5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .input-2 {
+    display: block;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 340px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    outline: none;
+  }
+
+  .input-2:hover {
+    background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+  }
+
+  
 /* Footer */
   footer {
     position: relative;
