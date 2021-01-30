@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
@@ -122,7 +123,7 @@
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>  
 
       <form action="#">
-        <input class="input-1" type="email" placeholder="email@example.com">
+        <input class="input-1" type="email" placeholder="email@example.com" required>
 
         <input class="input-2" type="submit" value="Get Started For Free"> 
       </form>
@@ -130,29 +131,40 @@
   </section>
 
   <footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> 
+    <img src="assets/images/logo.svg" alt="Fylo Logo" class="fylo">
 
-    <p>+1-543-123-4567</p>
+    <img src="assets/images/icon-location.svg" alt="" class="location-icon">
+    <p class="location">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> 
 
-    <p>example@fylo.com</p> 
+    <img src="assets/images/icon-phone.svg" alt="" class="phone-icon">
+    <p class="tel">+1-543-123-4567</p>
 
-    <nav>
-      <a href="#">About Us</a>
-      <a href="#">Jobs</a>
-      <a href="#">Press</a>
-      <a href="#">Blog</a>
+    <img src="assets/images/icon-email.svg" alt="" class="email-icon">
+    <p class="email">example@fylo.com</p> 
+
+    <nav class="footer-nav1">
+      <a href="#" class="footer-link1">About Us</a>
+      <a href="#" class="footer-link2">Jobs</a>
+      <a href="#" class="footer-link3">Press</a>
+      <a href="#" class="footer-link4">Blog</a>
     </nav>
 
-    <nav>
-      <a href="#">Contact Us</a>
-      <a href="#">Terms</a>
-      <a href="#">Privacy</a>
+    <nav class="footer-nav2">
+      <a href="#" class="footer-link5">Contact Us</a>
+      <a href="#" class="footer-link6">Terms</a>
+      <a href="#" class="footer-link7">Privacy</a>
     </nav>
   
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Osamudiame Ruth Igbinoba</a>.
-    </p>
+    <div class="social-links">
+      <a href="#"><i class="fa fa-facebook fa-lg" ></i></a>
+      <a href="#"><i class="fa fa-twitter fa-lg" ></i></a>
+      <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+    </div>
+
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+      <p>Coded by <a href="https://github.com/Mudi-Igbinoba" target="_blank">Osamudiame Ruth Igbinoba</a>.</p>
+    </div>
   </footer>
 </body>
 </html>

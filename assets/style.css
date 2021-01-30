@@ -16,6 +16,7 @@ html, body {
     width: 25%;
     padding-left: 15px;
     padding-top: 20px;
+    margin-top: 15px;
   }
 
   header nav {
@@ -331,7 +332,7 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+    box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.1);
   }
 
   #team-1 blockquote {
@@ -389,7 +390,7 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+    box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.1);
   }
 
   #team-2 blockquote {
@@ -447,7 +448,7 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
-    /* box-shadow: 0px 0px 10px hsl(219, 30%, 18%); */
+    box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.1);
   }
 
   #team-3 blockquote {
@@ -507,13 +508,15 @@ html, body {
   .sign-in-div {
     position: relative;
     margin: 0px 25px;
-    background-color: hsl(219, 30%, 18%);
+    background-color: hsl(217, 28%, 15%);
     padding-top: 20px;
     padding-bottom: 70px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
     top: 210px;
+    z-index: 100;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
   }
 
   .sign-in-div h2 {
@@ -579,12 +582,152 @@ html, body {
 /* Footer */
   footer {
     position: relative;
-    top: 200px;
+    top: 10px;
+    padding-top: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 1100px;
+    background-color: hsl(216, 53%, 9%);
   }
 
-  .attribution { 
-    font-size: 11px; 
+  .fylo {
+    margin-left: 20px;
+  }
+
+  footer p {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .location-icon {
+    float: left;
+    position: relative;
+    top: 93px;
+    left: 20px;
+  }
+
+  .location {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 50px;
+    font-weight: 400;
+  }
+
+  .phone-icon {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 15px;
+  }
+
+  .tel {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .email-icon {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 15px;
+  }
+
+  .email {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: 12px;
+  }
+
+  .footer-nav1 {
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+
+  .footer-nav2 {
+    margin-top: 60px;
+    margin-left: 15px;
+  }
+
+  footer nav a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  footer nav a:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .footer-link2, .footer-link3, .footer-link4, .footer-link6, .footer-link7 {
+    margin-top: 15px;
+  }
+
+  .social-links {
+    position: relative;
+    top: 100px;
+    margin: auto;
+  }
+
+  .fa-facebook {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    left: 35%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-twitter {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    left: 40%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-instagram {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    left: 45%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+  }
+
+  .attribution {
+    position: relative;
+    font-size: 16px; 
     text-align: center; 
+    top: 200px;
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway, sans-serif;
   }
 
   .attribution a { 
