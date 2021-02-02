@@ -290,6 +290,7 @@ html, body {
 
   #feature-6 a img {
     position: relative;
+    right: 2px;
     width: 5%;
     display: inline;
     top: 12px;
@@ -647,11 +648,15 @@ html, body {
   .footer-nav1 {
     margin-top: 100px;
     margin-left: 15px;
+    padding: 0;
+    width: fit-content;
   }
 
   .footer-nav2 {
     margin-top: 60px;
     margin-left: 15px;
+    padding: 0;
+    width: fit-content;
   }
 
   footer nav a {
@@ -674,7 +679,9 @@ html, body {
   .social-links {
     position: relative;
     top: 100px;
-    margin: auto;
+    margin: 0px 100px;
+    padding: 0%;
+    width: fit-content;
   }
 
   .fa-facebook {
@@ -728,8 +735,515 @@ html, body {
     top: 200px;
     color: hsl(0, 0%, 100%);
     font-family: Raleway, sans-serif;
+    width: fit-content;
+    padding: 0;
+    margin: auto;
   }
 
   .attribution a { 
     color: hsl(228, 45%, 44%); 
+  }
+
+  /* Media Queries */
+  @media all and (max-width: 1440px) and (min-width: 1200px) {
+    header img {
+      width: 12%;
+      padding-left: 80px;
+      padding-top: 45px;
+      margin-top: 15px;
+    }
+  
+    header a {
+      position: relative;
+      left: 900px;
+      bottom: 40px;
+      padding: 14px 25px;
+      text-decoration: none;
+     
+    }
+  
+    #features {
+      position: relative;
+      top: 50px;
+      width: 100%;
+    }
+    
+    #feature-1 {
+      position: relative;
+      /* margin: 0px -3px; */
+      background-image: none;
+      background-color: hsl(217, 28%, 15%);
+      
+
+    }
+  
+    .intro-img {
+      width: 50%;
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+  
+    h1 {
+      position: relative;
+      bottom: 0px;
+      padding: 0px 250px;
+      font-size: 36px;
+      line-height: 54px;
+      z-index: 1000;
+    }
+  
+    br {
+      display: none;
+    }
+
+    .intro-div {
+      position: relative;
+      background-image: url(images/bg-curvy-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-color: hsl(217, 28%, 15%);
+      padding-top: 10px;
+      padding-bottom: 50px;
+      width: 100vw;
+      height: 333px;
+      max-width: 100%;
+      bottom: 5px;
+    }
+  
+    #feature-1 p {
+      padding: 20px 350px;
+      position: relative;
+      /* bottom: 50px; */
+    }
+  
+    #feature-1 a {
+      position: relative;
+      bottom: 30px;
+    }
+
+    #feature-1 button  {
+      position: relative;
+      left: 505px;
+      width: 250px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  
+    .features-div1 {
+      display: flex;
+      background-color: hsl(218, 28%, 13%);
+      position: relative;
+      bottom: 10px;
+    }
+
+    .features-div2 {
+      display: flex;
+      background-color: hsl(218, 28%, 13%);
+      position: relative;
+      bottom: 10px;
+    }
+
+
+    #feature-2 {
+      position: relative;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 30px;
+      width: 50vw;
+    }
+  
+    #feature-2 h2 {
+      padding: 0px 0%;
+      padding-top: 0px;
+      margin-bottom: 0px;
+    }
+  
+    #feature-2 p {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 100px;
+    }
+  
+    #feature-3 {
+      position: relative;
+      width: 50vw;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-top: -10px;
+    }
+  
+    #feature-3 h2 {
+      padding: 0px 0px;
+      padding-top: 0px;
+    }
+  
+    #feature-3 p {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 100px;
+    }
+  
+    #feature-4 {
+      width: 50vw;
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+  
+    #feature-4 h2 {
+      padding: 0px 0%;
+      padding-top: 0px;
+    }
+  
+    #feature-4 p {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 80px;
+    }
+  
+    #feature-5 {
+      width: 50vw;
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+  
+    #feature-5 h2 {
+      padding: 0px 0%;
+      padding-top: 0px;
+    }
+  
+    #feature-5 p {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 100px;
+    }
+  
+    #feature-6 {
+      position: relative;
+      width: 100vw;
+      max-width: 100%;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      bottom: 10px;
+      display: flex;
+    }
+  
+    #feature-6 img {
+      position: relative;
+      display: block;
+      width: 50%;
+      margin-left: 50px;
+      margin-right: 0;
+    }
+  
+    #feature-6 div {
+      align-items: flex-end;
+      margin-top: 100px;
+    }
+
+    #feature-6 h2 {
+      padding-top: 20px;
+      font-size: 30px;
+      padding-left: 30px;
+      padding-right: 200px;
+      line-height: 40px;
+    }
+  
+    #feature-6 p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: -15px;
+      padding: 0px 35px;
+      padding-bottom: 15px;
+    }
+  
+    #feature-6 a {
+      position: relative;
+      bottom: 10px;
+      padding-left: 35px;
+      font-size: 14px;
+    }
+  
+    #feature-6 a img {
+      position: relative;
+      width: 15px;
+      right: 50px;
+    }
+    
+    #team {
+      position: relative;
+      top: 30px;
+      background-color: hsl(218, 28%, 13%);
+      padding-top: 150px;
+      background-image: url(images/bg-quotes.png);
+      background-repeat: no-repeat;
+      background-position: 18px 110px;
+      background-size: 5%;
+      height: 300px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    #team-1 {
+      background-color: hsl(219, 30%, 18%);
+      padding-top: 25px;
+      padding-bottom: 10px;
+      margin-left: 25px;
+      margin-right: 25px;
+      border-radius: 10px;
+      box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.1);
+      width: 1200px;
+      height: fit-content;
+    }
+  
+    #team-1 blockquote {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    #team-1 img {
+      width: 8%;
+    }
+  
+    #team-1 h4 {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 15px;
+      margin-left: 10px;
+    }
+  
+    #team-1 p {
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 13px;
+      margin-left: 67px;
+    }
+  
+    #team-2 {
+      position: relative;
+      top: 0px;
+      padding-bottom: 10px;
+      margin-left: 25px;
+      margin-right: 25px;
+      width: 1200px;
+      height: fit-content;
+    }
+  
+    #team-2 blockquote {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    #team-2 img {
+      width: 8%;
+    }
+  
+    #team-2 h4 {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 15px;
+      margin-left: 10px;
+    }
+  
+    #team-2 p {
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 13px;
+      margin-left: 67px;
+    }
+  
+    #team-3 {
+      position: relative;
+      top: 0px;
+      padding-bottom: 10px;
+      margin-left: 25px;
+      margin-right: 25px;
+      width: 1200px;
+      height: fit-content;
+    }
+  
+    #team-3 blockquote {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    #team-3 img {
+      width: 8%;
+    }
+  
+    #team-3 h4 {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 15px;
+      margin-left: 10px;
+    }
+  
+    #team-3 p {
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      position: relative;
+      bottom: 13px;
+      margin-left: 67px;
+    }
+
+    #sign-in {
+      position: relative;
+      top: 10px;
+      background-color: hsl(218, 28%, 13%);
+      /* padding-top: 100px; */
+    }
+  
+    .sign-in-div {
+      position: relative;
+      margin: 0px 200px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      padding-left: 60px;
+      padding-right: 60px;
+      top: 120px;
+    }
+  
+    .sign-in-div h2 {
+      font-size: 30px;
+    }
+  
+    .sign-in-div p {
+      padding: 0px 40px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .input-1 {
+      display: inline;
+      margin: 0;
+      width: 450px;
+      height: 60px;
+      margin-top: 20px;
+      padding-left: 50px;
+    }
+  
+    .input-2 {
+      display: inline;
+      position: relative;
+      float: right;
+      top: 20px;
+      margin: 0;
+      width: 220px;
+      height: 62px;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+
+    footer {
+      position: relative;
+      top: 10px;
+      padding-top: 200px;
+      padding-left: 25px;
+      padding-right: 25px;
+      height: 500px;
+    }
+  
+    .fylo {
+      margin-left: 10px;
+    }
+  
+    footer p {
+      margin-left: 60px;
+      margin-top: 30px;
+    }
+  
+    .location-icon {
+      float: left;
+      position: relative;
+      top: 93px;
+      left: 25px;
+    }
+  
+    .location {
+      font-size: 16px;
+      line-height: 24px;
+      padding-right: 800px;
+    }
+  
+    .phone-icon {
+      float: right;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      margin-right: 750px;
+      margin-top: -80px;
+    }
+  
+    .tel {
+      font-size: 16px;
+      position: relative;
+      bottom: 112px;
+      right: 600px;
+      float: right;
+    }
+  
+    .email-icon {
+      float: right;
+      position: relative;
+      top: 0;
+      left: 0px;
+      margin-right: 560px;
+      margin-top: -40px;
+    }
+  
+    .email {
+      font-size: 16px;
+      position: relative;
+      bottom: 73px;
+      right: 394px;
+      float: right;
+    }
+  
+    .footer-nav1 {
+      position: relative;
+      margin-top: 100px;
+      margin-left: 15px;
+      left: 700px;
+      bottom: 170px;
+    }
+  
+    .footer-nav2 {
+      position: relative;
+      margin-top: 60px;
+      margin-left: 15px;
+      left: 850px;
+      bottom: 383px;
+    }
+  
+    footer nav a {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  
+    .social-links {
+      position: relative;
+      top: 0px;
+      bottom: 0px;
+      margin: 0;
+      margin-top: -490px;
+      left: 960px;
+    }
+  
+    .attribution {
+      position: relative;
+      font-size: 14px; 
+      text-align: center; 
+      top: 200px;
+      margin: auto;
+    }
+  
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
   }
